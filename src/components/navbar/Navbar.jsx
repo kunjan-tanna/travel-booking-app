@@ -16,7 +16,7 @@ function Navbar() {
   }, []);
   return (
     <div
-      className={`fixed z-20 h-16 w-full top-0 left-0 ${
+      className={`fixed z-50 h-16 w-full top-0 left-0 ${
         isScrolled ? "shadow-md backdrop-blur:" : ""
       }`}
     >
