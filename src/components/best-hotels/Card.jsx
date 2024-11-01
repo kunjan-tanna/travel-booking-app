@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -6,7 +7,7 @@ import { format } from "currency-formatter";
 const Card = ({ place }) => {
   return (
     <Link
-      href={"/details/1"}
+      href={`/details/1`}
       className="cursor-pointer h-[500px] w-[350px] flex flex-wrap rounded-xl shadow-md transition-all"
     >
       <div className="relative h-2/3 w-full">
